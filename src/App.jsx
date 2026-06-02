@@ -5,7 +5,9 @@
 //   message: "hi there",
 //   seatNumbers: [1, 4, 7],
 
-import Message from "./components/Message";
+import Counter from "./components/Counter";
+
+// import Message from "./components/Message";
 
 // import ConditionalComponent from "./components/ConditionalComponent";
 // import Fruits from "./components/Fruits";
@@ -19,7 +21,8 @@ const App = () => {
       {/* <ConditionalComponent /> */}
 
       {/* <Fruits /> */}
-      <Message />
+      {/* <Message /> */}
+      <Counter />
     </div>
   );
 };
