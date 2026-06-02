@@ -1,6 +1,6 @@
 import React from "react";
 
-const Fruit = ({ name, price, emoji }) => {
+const Fruit = ({ name, price, emoji, soldout }) => {
   //   const fruits = [
   //     {
   //       name: "apple",
@@ -29,12 +29,33 @@ const Fruit = ({ name, price, emoji }) => {
   //     },
   //   ];
 
+  //   return (
+  //     <>
+  //       {/* {name} {emoji} {price} */}
+  //       {price > 5 ? (
+  //         <li>
+  //           {name} {emoji} {price}
+  //         </li>
+  //       ) : (
+  //         ""
+  //       )}
+  //     </>
+  //   );
+  // };
+
+  // export default Fruit;
+
   return (
-    <div>
-      <li>
-        {name} {emoji} {price}
-      </li>
-    </div>
+    <>
+      {/* {name} {emoji} {price} */}
+      {price > 5 ? (
+        <li>
+          {name} {emoji} {price} {soldout ? "Soldout" : ""}
+        </li>
+      ) : (
+        ""
+      )}
+    </>
   );
 };
 
