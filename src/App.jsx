@@ -5,7 +5,9 @@
 //   message: "hi there",
 //   seatNumbers: [1, 4, 7],
 
-import Counter from "./components/Counter";
+import Form from "./components/Form";
+
+// import Counter from "./components/Counter";
 
 // import Message from "./components/Message";
 
@@ -22,7 +24,8 @@ const App = () => {
 
       {/* <Fruits /> */}
       {/* <Message /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Form />
     </div>
   );
 };
