@@ -3,7 +3,7 @@ import { useState } from "react";
 const Counter = () => {
   const [Result, setResult] = useState("");
   const [incrementBy, setIncrementBy] = useState(1);
-  const [DecrementBy, setDecrementBy] = useState(1);
+//   const [DecrementBy, setDecrementBy] = useState(1);
 
   const IncreaseIncrement = () => {
     setIncrementBy(incrementBy + 1);
